@@ -1,4 +1,4 @@
-# 🗞️ Galamedia News Scraper
+# 🗞️ News Scraper
 
 Proyek scraper berita otomatis untuk mengumpulkan artikel dari portal berita Galamedia (galamedia.pikiran-rakyat.com)
 
