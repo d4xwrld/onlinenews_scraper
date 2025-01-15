@@ -21,6 +21,7 @@ class NusantaraTVScraper:
             "Sec-Fetch-Site": "same-origin",
         }
 
+        # Set required cookies from curl request
         self.session.cookies.set(
             "XSRF-TOKEN",
             "eyJpdiI6ImZGSjRTSEYyQ3h0WEg3NzRpeGRHbWc9PSIsInZhbHVlIjoiYmUyS09TTmNaU0xIUFVPS0pNRjRaWHV0OUFTQlNzTmJCWjZBQVBhTllHRERwNG1ZL25PRlVSVDVSSG1zTTRpM3dYU1lTYjlFM2pRUWE2c0ZJTDNPeXVWZHhQZmxONkExK1I2Z0h0Zk5TRzIzNzlNV1hUaENkL3NidzNENDg2dzIiLCJtYWMiOiI1MWQ3MjY0MDU5YTZhZWI5Y2Y1MmQwZjA2ZWQ4YzQ2NWU0MWJlMzI1ZWYyYmZiMzE1MGJkY2U3MWQ1MTFmZTEzIiwidGFnIjoiIn0=",

@@ -1345,3 +1345,48 @@ console.error: ({})
 JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
 JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
 1736926304436	Marionette	INFO	Stopped listening on port 35663
+1736927788755	geckodriver	INFO	Listening on 127.0.0.1:58339
+1736927789286	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "42231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7cVHRp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736927789520	Marionette	INFO	Marionette enabled
+1736927789600	Marionette	INFO	Listening on port 39941
+WebDriver BiDi listening on ws://127.0.0.1:42231
+Read port: 39941
+1736927789747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 1237 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6LoleFQdWk2EEfhEAJzouD4MZoRMZo2qJxisFc-PBJg.js line 2 > eval line 7336 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://nusantaratv.com/ line 1 > injectedScript, line 3: TypeError: bl[(pc - 1)] is undefined
+JavaScript warning: https://admd.ink/js/spm.min.js?ak=39192e9a7f620610b782a756fa84a4b9cd30fb83&dg=0&ci=1&gv=1&s1=220450&s2=1570456&s3=https%3a%2f%2fnusantaratv.com%2f&s4=&s9=120x600&s10=37882&s11=1607547a-e386-08c6-04a4-ba4dbda2e48f, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1736928364918	geckodriver	INFO	Listening on 127.0.0.1:49331
+1736928365451	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "38843" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMu2vMl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736928365678	Marionette	INFO	Marionette enabled
+1736928365751	Marionette	INFO	Listening on port 41523
+WebDriver BiDi listening on ws://127.0.0.1:38843
+Read port: 41523
+1736928365896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
