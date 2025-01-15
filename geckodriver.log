@@ -1159,3 +1159,105 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1736922094306	geckodriver	INFO	Listening on 127.0.0.1:55051
+1736922094836	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "43135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5XsjVr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736922095069	Marionette	INFO	Marionette enabled
+1736922095147	Marionette	INFO	Listening on port 44359
+WebDriver BiDi listening on ws://127.0.0.1:43135
+Read port: 44359
+1736922095292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
+1736922105635	Marionette	INFO	Stopped listening on port 44359
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dNIx5DWZp-OCvb2UxgrLm6p_sBgxbD3rZA99js5av7Y.js line 2 > eval line 4916 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dNIx5DWZp-OCvb2UxgrLm6p_sBgxbD3rZA99js5av7Y.js line 2 > eval line 4407 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/dNIx5DWZp-OCvb2UxgrLm6p_sBgxbD3rZA99js5av7Y.js line 2 > eval line 7602 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1736922793217	geckodriver	INFO	Listening on 127.0.0.1:47911
+1736922793751	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "58531" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8FyIoY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736922793997	Marionette	INFO	Marionette enabled
+1736922794071	Marionette	INFO	Listening on port 38161
+WebDriver BiDi listening on ws://127.0.0.1:58531
+Read port: 38161
+1736922794222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1736922805107	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1736922805202	Marionette	INFO	Stopped listening on port 38161
+console.error: services.settings: 
+  main/query-stripping Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 127"  data: no]
+console.error: ({})
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 238))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 238))
+1736922910742	geckodriver	INFO	Listening on 127.0.0.1:33963
+1736922911248	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "45383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1b1CAS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736922911474	Marionette	INFO	Marionette enabled
+1736922911559	Marionette	INFO	Listening on port 44311
+WebDriver BiDi listening on ws://127.0.0.1:45383
+Read port: 44311
+1736922911711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
+JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
+1736922934743	Marionette	INFO	Stopped listening on port 44311
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1736923766722	geckodriver	INFO	Listening on 127.0.0.1:57327
+1736923767196	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "55517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilediGT1S"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736923767457	Marionette	INFO	Marionette enabled
+1736923767538	Marionette	INFO	Listening on port 39437
+WebDriver BiDi listening on ws://127.0.0.1:55517
+Read port: 39437
+1736923767701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
+JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
+1736923789182	Marionette	INFO	Stopped listening on port 39437
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1736923835453	geckodriver	INFO	Listening on 127.0.0.1:51957
+1736923835882	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sbi ... ss" "--remote-debugging-port" "53975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRuheEK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1736923836114	Marionette	INFO	Marionette enabled
+1736923836191	Marionette	INFO	Listening on port 39917
+WebDriver BiDi listening on ws://127.0.0.1:53975
+Read port: 39917
+1736923836340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://nusantaratv.com/, line 1581: ReferenceError: jwplayer is not defined
+JavaScript error: resource:///modules/backup/BackupService.sys.mjs, line 108: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIProperties.get]
+JavaScript error: https://nusantaratv.com/ line 1 > injectedScript, line 3: TypeError: bl[(pc - 1)] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval line 5981 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://admd.ink/js/spm.min.js?ak=39192e9a7f620610b782a756fa84a4b9cd30fb83&dg=0&ci=1&gv=1&s1=220450&s2=1570456&s3=https%3a%2f%2fnusantaratv.com%2f&s4=&s9=120x600&s10=37882&s11=043831b1-1abf-2b56-9fcb-31c95cfc873d, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval line 3593 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1736923859085	Marionette	INFO	Stopped listening on port 39917
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval, line 6134: Script terminated by timeout at:
+D6@https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval:6134:1605
+Yc/<@https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval:6134:17260
+Xn</<@https://pagead2.googlesyndication.com/bg/xhloPt0V3HYDZqxMOCNqLI9Qa0-bNWhyd5ULBccPyWM.js line 2 > eval:6134:48832
+

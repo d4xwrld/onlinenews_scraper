@@ -38,12 +38,12 @@ class NusantaraTVScraper:
             self.driver.get(url)
             WebDriverWait(self.driver, 10).until(
                 EC.presence_of_all_elements_located(
-                    (By.XPATH, "//input[@type='hidden']")
+                    (By.CSS_SELECTOR, "input[type='hidden']")
                 )
             )
             return self.driver.page_source
         except TimeoutException:
-            print("Timeout while waiting for page to load")
+            print("Failed to load due timeout")
             return None
 
     def fill_hidden_inputs(self, soup):
@@ -62,6 +62,8 @@ class NusantaraTVScraper:
     def parse_page(self, html):
         soup = BeautifulSoup(html, "html.parser")
         self.fill_hidden_inputs(soup)
+        with open("output.html", "w", encoding="utf-8") as file:
+            file.write(str(soup))
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.TAG_NAME, "body"))
         )
@@ -83,7 +85,7 @@ class NusantaraTVScraper:
                 print("No titles found")
         return soup
 
-    def __exit__(self, *args):
+    def __exit__(self, exc_type, exc_value, traceback):
         self.driver.quit()
         print(
             "----------- Crawler Run %f seconds -----------"
