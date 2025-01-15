@@ -352,6 +352,17 @@ class Galamedia:
             % (time.time() - self.StartTime)
         )
 
+    def get_categories(self, page):
+        categories = []
+        category_tags = page.find_all("a", class_="desktop_kanal")
+        for tag in category_tags:
+            href = tag.get("href")
+            if href:
+                path = urlparse(href).path
+                categories.append(path)
+        print(f"Categories: {categories}")
+        return categories
+
 
 if __name__ == "__main__":
     with Galamedia() as crawler:
@@ -363,8 +374,14 @@ if __name__ == "__main__":
         )
         ## End
         try:
-            base_url = "https://galamedia.pikiran-rakyat.com/indeks-berita"
-            total_data = crawler.parse_page(base_url)
+            base_url = "https://galamedia.pikiran-rakyat.com"
+            page = requests.get(base_url, headers=headers)
+            soup = BeautifulSoup(page.text, "html.parser")
+            category_urls = crawler.get_categories(soup)
+            total_data = 0
+            for category_url in category_urls:
+                print(category_url)
+                total_data += crawler.parse_page(base_url + category_url)
             crawler.logs.update_one(
                 {"_id": ObjectId(logs["id"])},
                 {
