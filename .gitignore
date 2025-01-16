@@ -3,3 +3,4 @@ response.html
 geckodriver.log
 geckodriver.log
 playground/ai.py
+etc/*
